@@ -1,0 +1,310 @@
+/* General Reset */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0d6ede;
+    padding: 15px 20px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+.order-btn {
+    background: #FFD700;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black !important;
+}
+
+/* Hero Section */
+.hero {
+    background: url('bakery-banner.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: Center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(246, 6, 6, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #89aa05;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Menu Page */
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.menu-category {
+    margin-top: 20px;
+}
+
+.menu-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #78380b;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.menu-item h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.menu-item span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8B4513;
+}
+
+/* Contact Page */
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.map {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Contact Form */
+form {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #8B4513;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #A0522D;
+}
+
+/* About Page */
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+.about h2, .about h3 {
+    color: #8B4513;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 10px auto;
+    color: #555;
+}
+
+.founders {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.founder {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.founder img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.storefront {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Order Page */
+.order {
+    text-align: center;
+    padding: 20px;
+}
+
+.order h2 {
+    color: #8B4513;
+}
+
+.order p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 10px auto;
+    color: #555;
+}
+
+form {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #8B4513;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #A0522D;
+}
+
+/* Footer */
+footer {
+    background: #0395ef;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

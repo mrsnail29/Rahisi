@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online - Keki Bora Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Keki Bora Bakery</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html" class="order-btn" target="_blank">Order Online</a></li>
+        </ul>
+    </nav>
+
+    <!-- Order Form Section -->
+    <section class="order">
+        <h2>Place Your Order</h2>
+        <p>Fill in the details below to order your favorite cakes, pastries, and desserts.</p>
+
+        <form id="order-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="item">Select Item:</label>
+            <select id="item" name="item" required>
+                <option value="">-- Choose an item --</option>
+                <option value="Chocolate Cake">Chocolate Cake - $20</option>
+                <option value="Vanilla Cake">Vanilla Cake - $18</option>
+                <option value="Red Velvet Cupcake">Red Velvet Cupcake - $5</option>
+                <option value="Cheesecake">Cheesecake - $15</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="message">Special Instructions:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit Order</button>
+        </form>
+
+        <p id="order-status"></p>
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2025 Keki Bora Bakery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
